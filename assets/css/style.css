@@ -1,0 +1,24 @@
+.jumbotron-box {
+  margin-top: 40px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  padding: 30px;
+  border: none;
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+}
+
+.card .btn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
